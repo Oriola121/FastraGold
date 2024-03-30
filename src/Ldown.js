@@ -60,7 +60,6 @@ width: 100%;
 height: 30%;
 margin-top: -15px;
 line-height: 10px;
-
 `
 const Midhed = styled.div`
 

@@ -36,12 +36,18 @@ export default Clist
 const Cll = styled.div`
 width: 100%;
 height: 100%;
+ 
 `
 const Clwrap = styled.div`
 width: 90%;
 height: 100%;
 margin-top: -30px;
 
+
+@media screen and (max-width: 1075px){
+  margin-top: 10px;
+
+}
 .reicon{
   display: flex;
 }

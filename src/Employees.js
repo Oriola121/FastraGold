@@ -13,7 +13,7 @@ function Employees() {
             <div className='avat'>
                 <img src={advatar} alt='avatar' className='avacon'/>
                 <div className='avatext'><p className='cards'>Aslam Dhikrullahi</p>
-                <p className='client'>admingi</p></div></div>
+                <p className='client'>admin</p></div></div>
             <div className='avat'>
                 <img src={advatar1} alt='avatar' className='avacon'/>
                 <div className='avatext'><p className='cards'>Aslam Dhikrullahi</p>

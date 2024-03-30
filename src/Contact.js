@@ -53,6 +53,8 @@ const Concont = styled.div`
 width: 100%;
 height: 100%;
 // display: flex;
+
+
 `
 const Conwrap = styled.div`
 width: 92%;

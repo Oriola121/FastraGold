@@ -29,6 +29,11 @@ width: 95%;
 height: 95%;
 display: flex;
 justify-content: space-between;
+
+@media screen and (max-width: 1075px){
+    display: flex;
+    flex-direction: column;
+}
 `
 const Lhead = styled.div`
 width: 80%;
