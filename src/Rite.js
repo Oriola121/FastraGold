@@ -87,8 +87,8 @@ height: 85%;
     top: 60px;
     background: linear-gradient(180deg, #09285D 0%, #020A17 100%);
     height: 70vh;
-    width: 13%;
-    right: ${({click}) => (click ?  '-100%' : 0)};
+    width: 150px;
+    left: ${({click}) => (click ?  '-100%' : 0)};
     transition: all 2s ease;
     z-index: 1;
   }

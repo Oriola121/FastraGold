@@ -26,6 +26,7 @@ height: 100%;
 display: flex;
 justify-content: flex-start;
 align-items: center;
+
 `
 const Revwrap = styled.div`
 width: 90%;
@@ -33,7 +34,17 @@ height: 100%;
 display: flex;
 justify-content: space-around;
 
+@media screen and (max-width: 1075px){
+  display: flex;
+  flex-wrap: wrap;
+}
 .rev_stat{
     height: 130px;
+
+    
+@media screen and (max-width: 1075px){
+  width: 130px;
+ margin: 10px;
+}
 }
 `

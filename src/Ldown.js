@@ -35,6 +35,13 @@ display: flex;
 const LDwrap = styled.div`
 width: 90%;
 height: 100%;
+
+@media screen and (max-width: 1075px){
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
 `
 const LDtop = styled.div`
 width: 100%;
@@ -60,6 +67,8 @@ width: 100%;
 height: 30%;
 margin-top: -15px;
 line-height: 10px;
+
+
 `
 const Midhed = styled.div`
 

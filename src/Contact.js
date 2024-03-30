@@ -63,6 +63,9 @@ display: flex;
 flex-direction: column;
 justify-content: space-around;
 
+@media screen and (max-width: 1075px){
+    margin: 20px;
+}
 
 .avat{
     width: 100%;

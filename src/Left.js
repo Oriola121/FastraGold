@@ -43,5 +43,10 @@ height: 100%;
 const Lbutm = styled.div`
 width: 20%;
 height: 100%;
-// background-color: green;
+
+
+@media screen and (max-width: 1075px){
+    width: 100%;
+    height: 100%;
+}
 `
