@@ -49,14 +49,11 @@ margin-top: -30px;
 .menu{
   color: #FFFFFF;
   font-size: 15px;
-  // margin: 50px 30px;
-  // line-height: 3em;
 }
 
 .icon{
   font-size: 15px;
   margin-top: 18px;
-  // margin-left: 20px;
   margin-right: 15px;
 }
 `

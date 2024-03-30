@@ -3,6 +3,8 @@ import styled from 'styled-components'
 import Clist from './Clist'
 import fastra from './image/logo.png'
 import { BsArrowLeft } from "react-icons/bs";
+import { IoSettingsOutline } from "react-icons/io5";
+
 
 function Rite() {
   return (
@@ -13,9 +15,8 @@ function Rite() {
             <Rcent>
                 <Centlist><Clist/></Centlist>
             </Rcent>
-            <Rbutm>
-                Setting
-            </Rbutm>
+            <Rbutm><div className='reicon'><IoSettingsOutline className='icon'/>
+            <p className='menu'>Setting</p></div></Rbutm>
         </Rwrap>
     </Rcont>
   )
@@ -47,10 +48,28 @@ const Rcent = styled.div`
 width: 100%;
 height: 80%;
 `
+const Centlist = styled.div`
+
+`
 const Rbutm = styled.div`
 width: 100%;
 height: 5%;
-`
-const Centlist = styled.div`
 
+.reicon{
+  display: flex;
+}
+
+.menu{
+  color: #FFFFFF;
+  font-size: 15px;
+  // margin: 50px 30px;
+  // line-height: 3em;
+}
+
+.icon{
+  font-size: 15px;
+  margin-top: 18px;
+  // margin-left: 20px;
+  margin-right: 15px;
+}
 `
