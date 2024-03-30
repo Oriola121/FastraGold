@@ -2,12 +2,14 @@ import React from 'react'
 import styled from 'styled-components'
 import Clist from './Clist'
 import fastra from './image/logo.png'
+import { BsArrowLeft } from "react-icons/bs";
 
 function Rite() {
   return (
     <Rcont>
         <Rwrap>
-            <Rhead><img src={fastra} alt="fastra_suite"/></Rhead>
+            <Rhead><div className='hedlog'><img src={fastra} alt="fastra_suite"/> 
+            <BsArrowLeft /></div></Rhead>
             <Rcent>
                 <Centlist><Clist/></Centlist>
             </Rcent>
@@ -35,6 +37,11 @@ color: #fff;
 const Rhead = styled.div`
 width: 100%;
 height: 15%;
+
+.hedlog{
+  display: flex;
+  justify-content: space-between;
+}
 `
 const Rcent = styled.div`
 width: 100%;
