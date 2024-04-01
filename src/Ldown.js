@@ -59,7 +59,10 @@ align-items: center;
   font-size: 20px;
   font-weight: 500;
   line-height: 38.82px;
-  // text-align: left;
+
+  @media screen and (max-width: 1075px){
+    margin-top: 30px;
+  }
 }
 `
 const LDmid = styled.div`

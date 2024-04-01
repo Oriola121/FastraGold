@@ -67,6 +67,7 @@ margin-bottom: 20px;
 @media screen and (max-width: 1075px){
   margin-top: 10px;
   width: 20%;
+}
 `
 const Rhead = styled.div`
 width: 100%;
